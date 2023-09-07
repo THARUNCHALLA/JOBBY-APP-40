@@ -1,0 +1,78 @@
+.listContainer {
+  background-color: #272727;
+  list-style-type: none;
+  border-radius: 06px;
+  padding: 20px;
+  margin-bottom: 14px;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+.companyLogoUrl {
+  height: 60px;
+}
+.insideStarContainer {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title {
+  font-family: 'bree serif';
+  font-size: 12px;
+  color: white;
+  margin: 0px;
+}
+.starContainer {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.rating {
+  font-size: 15px;
+  color: white;
+  margin-left: 04px;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.insideLocationContainer {
+  display: flex;
+  align-items: center;
+}
+.location {
+  font-weight: 'roboto';
+  font-size: 12px;
+  color: white;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+.package {
+  font-weight: 'roboto';
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+}
+.hr {
+  width: 100%;
+}
+.description {
+  font-weight: 'roboto';
+  font-size: 16px;
+  color: #fbbf24;
+}
+.jobDe {
+  font-weight: 'roboto';
+  font-size: 12px;
+  color: white;
+}
+.md-icon {
+  color: white;
+}
+.star-image {
+  color: #fbbf24;
+}

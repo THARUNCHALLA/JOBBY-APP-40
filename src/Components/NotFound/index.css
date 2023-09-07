@@ -1,0 +1,21 @@
+.not {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notFound {
+  height: 400px;
+  width: 350px;
+  margin-top: 100px;
+}
+.page {
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 800;
+}
+.we {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #7e858e;
+}

@@ -1,0 +1,109 @@
+.loginContainer {
+  background-color: #121212;
+  height: 100vh;
+  border: solid 1px #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.InsideContainer {
+  background-color: #475569;
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+@media (min-width: 700px) {
+  .InsideContainer {
+    background-color: #475569;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+}
+.websiteLogo {
+  height: 70px;
+  width: 100px;
+  margin: 30px;
+  align-self: center;
+}
+@media (min-width: 700px) {
+  .websiteLogo {
+    height: 70px;
+    width: 100px;
+    margin: 30px;
+    align-self: center;
+  }
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+@media (min-width: 700px) {
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}
+label {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+}
+@media (min-width: 700px) {
+  label {
+    font-family: 'roboto';
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+  }
+}
+.kl {
+  width: 240px;
+  height: 36px;
+  padding-left: 14px;
+  background-color: transparent;
+  outline: none;
+  border: solid 1px white;
+}
+@media (min-width: 700px) {
+  .kl {
+    width: 350px;
+    height: 36px;
+    padding-left: 14px;
+    background-color: transparent;
+    outline: none;
+    border: solid 1px white;
+  }
+}
+.button {
+  background-color: #6366f1;
+  width: 240px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+@media (min-width: 700px) {
+  .button {
+    background-color: #6366f1;
+    width: 350px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+}
+.error {
+  font-family: 'bree serif';
+  font-size: 15px;
+  font-weight: 800;
+  color: #ff0b37;
+}
